@@ -12,9 +12,10 @@ typedef struct Node {
   int balanceFactor;  // Increment if the same data is inserted.
   Node* left;
   Node* right;
+  Node* parent;
 
   Node(const string &data)
-      : data(data), count(1), balanceFactor(0), left(nullptr), right(nullptr) {}
+      : data(data), count(1), balanceFactor(0), left(nullptr), right(nullptr), parent(nullptr) {}
 } Node;
 
 class AVLTree {
@@ -30,11 +31,11 @@ class AVLTree {
  private:
   Node *root_;
 
-  //void rotate(Node *node, const string &val);
-  //Node *rotateLeft(Node *node);
-  //Node *rotateRight(Node *node);
+  void rotate(Node *node, const string &val);
+  Node *rotateLeft(Node *node);
+  Node *rotateRight(Node *node);
   void visualizeTree(ofstream &, Node *node) const;
-  //Node *findUnbalancedNode(Node *node, const string &val) const;
+  Node *findUnbalancedNode(Node *node, const string &val) const;
   void printBalanceFactors(Node *node) const;
 };
 

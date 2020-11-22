@@ -1,4 +1,5 @@
 #include <queue>
+#include <iostream>
 
 #include "AVLTree.h"
 
@@ -22,6 +23,48 @@ AVLTree::~AVLTree() {
 
 void AVLTree::insert(const string &val) {
 
+    Node* node = new Node(val);
+
+    if (root_ == nullptr) {
+        root_ = node;
+        return;
+    }
+
+    Node* curr = root_;
+    while (curr != nullptr) {
+        if ( node->data < curr->data) {
+            curr->balanceFactor += 1;
+            if (curr->left == nullptr) {
+                // cout << node->data << " " << curr->data << endl;
+                curr->left = node;
+                node->parent = curr;
+                curr = nullptr;
+            }
+            else {
+                curr = curr->left;
+            }
+        }
+        else {
+            curr->balanceFactor -= 1;
+            if (curr->right == nullptr) {
+                curr->right = node;
+                node->parent = curr;
+                curr = nullptr;
+            }
+            else {
+                curr = curr->right;
+            }
+        }
+    }
+
+    /*
+    node = node⇢parent
+    while (node != null) {
+        AVLTreeRebalance(tree, node)
+        node = node⇢parent
+    }
+    */
+
 }
 
 int AVLTree::balanceFactor(Node *node) const {
@@ -43,10 +86,6 @@ Node *AVLTree::rotateLeft(Node *node) {
 }
 
 Node *AVLTree::rotateRight(Node *node) {
-
-}
-
-void AVLTree::visualizeTree(ofstream &, Node *node) const {
 
 }
 
