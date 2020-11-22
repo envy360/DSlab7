@@ -12,6 +12,9 @@ int menu() {
   cout << "1. Insert" << endl;
   cout << "2. Print" << endl;
   cout << "3. Quit" << endl;
+  // Tim Adds following
+  cout << "4. Visualize" << endl;
+  // To here
   cin >> choice;
 
   // fix buffer just in case non-numeric choice entered
@@ -37,6 +40,11 @@ int main() {
     } else if (choice == 2) {
       tree.printBalanceFactors();
     }
+    // Tim Adds following
+    else if (choice == 4) {
+        tree.visualizeTree("TreeVisOutput");
+    }
+    // To here
     // fix buffer just in case non-numeric choice entered
     choice = menu();
   }
