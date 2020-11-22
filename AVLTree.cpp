@@ -112,25 +112,21 @@ void AVLTree::visualizeTree(const string& outputFilename) const {
   visualizeTree(outFS, root_);
   outFS << "}";
   outFS.close();
-  /* the following convert to JPEG is not working in Window10 so far
   string jpgFilename =
       outputFilename.substr(0, outputFilename.size() - 4) + ".jpg";
   string command = "dot -Tjpg " + outputFilename + " -o " + jpgFilename;
   system(command.c_str());
-  */
 }
 
 void AVLTree::visualizeTree(ofstream& outFS, Node* node) const {
   if (node) {
     if (node->left) {
       visualizeTree(outFS, node->left);
-      // outFS << node->data << " -> " << node->left->data << ";" << endl;
-      outFS << node->data << " ->(L) " << node->left->data << ";" << endl;
+      outFS << node->data << " -> " << node->left->data << ";" << endl;
     }
     if (node->right) {
       visualizeTree(outFS, node->right);
-      // outFS << node->data << " -> " << node->right->data << ";" << endl;
-      outFS << node->data << " ->(R) " << node->right->data << ";" << endl;
+      outFS << node->data << " -> " << node->right->data << ";" << endl;
     }
   }
 }
