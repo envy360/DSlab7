@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7
+CMAKE_SOURCE_DIR = C:\Users\chris\CLionProjects\DSlab7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\chris\CLionProjects\DSlab7\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DSlab7.dir/depend.make
@@ -79,30 +79,30 @@ include CMakeFiles/DSlab7.dir/flags.make
 CMakeFiles/DSlab7.dir/AVLTree.cpp.obj: CMakeFiles/DSlab7.dir/flags.make
 CMakeFiles/DSlab7.dir/AVLTree.cpp.obj: CMakeFiles/DSlab7.dir/includes_CXX.rsp
 CMakeFiles/DSlab7.dir/AVLTree.cpp.obj: ../AVLTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSlab7.dir/AVLTree.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSlab7.dir\AVLTree.cpp.obj -c C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\AVLTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chris\CLionProjects\DSlab7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSlab7.dir/AVLTree.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSlab7.dir\AVLTree.cpp.obj -c C:\Users\chris\CLionProjects\DSlab7\AVLTree.cpp
 
 CMakeFiles/DSlab7.dir/AVLTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSlab7.dir/AVLTree.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\AVLTree.cpp > CMakeFiles\DSlab7.dir\AVLTree.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\chris\CLionProjects\DSlab7\AVLTree.cpp > CMakeFiles\DSlab7.dir\AVLTree.cpp.i
 
 CMakeFiles/DSlab7.dir/AVLTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSlab7.dir/AVLTree.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\AVLTree.cpp -o CMakeFiles\DSlab7.dir\AVLTree.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chris\CLionProjects\DSlab7\AVLTree.cpp -o CMakeFiles\DSlab7.dir\AVLTree.cpp.s
 
 CMakeFiles/DSlab7.dir/main.cpp.obj: CMakeFiles/DSlab7.dir/flags.make
 CMakeFiles/DSlab7.dir/main.cpp.obj: CMakeFiles/DSlab7.dir/includes_CXX.rsp
 CMakeFiles/DSlab7.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DSlab7.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSlab7.dir\main.cpp.obj -c C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\chris\CLionProjects\DSlab7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DSlab7.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSlab7.dir\main.cpp.obj -c C:\Users\chris\CLionProjects\DSlab7\main.cpp
 
 CMakeFiles/DSlab7.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSlab7.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\main.cpp > CMakeFiles\DSlab7.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\chris\CLionProjects\DSlab7\main.cpp > CMakeFiles\DSlab7.dir\main.cpp.i
 
 CMakeFiles/DSlab7.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSlab7.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\main.cpp -o CMakeFiles\DSlab7.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\chris\CLionProjects\DSlab7\main.cpp -o CMakeFiles\DSlab7.dir\main.cpp.s
 
 # Object files for target DSlab7
 DSlab7_OBJECTS = \
@@ -118,7 +118,7 @@ DSlab7.exe: CMakeFiles/DSlab7.dir/build.make
 DSlab7.exe: CMakeFiles/DSlab7.dir/linklibs.rsp
 DSlab7.exe: CMakeFiles/DSlab7.dir/objects1.rsp
 DSlab7.exe: CMakeFiles/DSlab7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DSlab7.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\chris\CLionProjects\DSlab7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable DSlab7.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DSlab7.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -131,6 +131,6 @@ CMakeFiles/DSlab7.dir/clean:
 .PHONY : CMakeFiles/DSlab7.dir/clean
 
 CMakeFiles/DSlab7.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7 C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7 C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\cmake-build-debug C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\cmake-build-debug C:\Users\timcl\OneDrive\Public\UCR\DS\tim\DSlab7\cmake-build-debug\CMakeFiles\DSlab7.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\chris\CLionProjects\DSlab7 C:\Users\chris\CLionProjects\DSlab7 C:\Users\chris\CLionProjects\DSlab7\cmake-build-debug C:\Users\chris\CLionProjects\DSlab7\cmake-build-debug C:\Users\chris\CLionProjects\DSlab7\cmake-build-debug\CMakeFiles\DSlab7.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DSlab7.dir/depend
 

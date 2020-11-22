@@ -7,6 +7,7 @@ using namespace std;
 
 AVLTree::AVLTree() : root_(nullptr) {}
 
+//constructor
 AVLTree::~AVLTree() {
   if (root_) {
     queue<Node *> nodes;
@@ -20,7 +21,7 @@ AVLTree::~AVLTree() {
     }
   }
 }
-
+//finished w/o balance factor
 void AVLTree::insert(const string &val) {
 
     Node* node = new Node(val);

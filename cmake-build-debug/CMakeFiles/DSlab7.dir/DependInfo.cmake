@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/timcl/OneDrive/Public/UCR/DS/tim/DSlab7/AVLTree.cpp" "C:/Users/timcl/OneDrive/Public/UCR/DS/tim/DSlab7/cmake-build-debug/CMakeFiles/DSlab7.dir/AVLTree.cpp.obj"
-  "C:/Users/timcl/OneDrive/Public/UCR/DS/tim/DSlab7/main.cpp" "C:/Users/timcl/OneDrive/Public/UCR/DS/tim/DSlab7/cmake-build-debug/CMakeFiles/DSlab7.dir/main.cpp.obj"
+  "C:/Users/chris/CLionProjects/DSlab7/AVLTree.cpp" "C:/Users/chris/CLionProjects/DSlab7/cmake-build-debug/CMakeFiles/DSlab7.dir/AVLTree.cpp.obj"
+  "C:/Users/chris/CLionProjects/DSlab7/main.cpp" "C:/Users/chris/CLionProjects/DSlab7/cmake-build-debug/CMakeFiles/DSlab7.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
